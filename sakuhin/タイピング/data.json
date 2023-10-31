@@ -1,0 +1,417 @@
+{
+    "questions":[
+        {
+            "no": 1,
+            "text": "プロジェクト組織は期間限定",
+            "text2": "purojekutososikihakikangentei"
+        },
+        {
+            "no": 1,
+            "text": "事業部制組織は、市場や製品ごとに社内組織を分割した利益責任単位",
+            "text2": "jigyoubuseisosikihasijouyaseihingotonishanaisosikiwobunkatusitariekisekinintanni"
+        },
+        {
+            "no": 1,
+            "text": "マトリクス組織は、２人またはそれ以上の上司から指揮命令を受ける可能性がある",
+            "text2": "matorikususosikihafutarimatahasoreijounojousikarasikimeireiwoukerukanouseigaaru"
+        },
+        {
+            "no": 1,
+            "text": "職能別組織は、専門分野ごとに分かれた一般的な組織",
+            "text2": "shokunoubetusosikihasenmonbunnyagotoniwakaretaippantekinasosiki"
+        },
+        {
+            "no": 1,
+            "text": "フレックスタイム制では、労働者自身が始業と就業の時間を決める",
+            "text2": "furekkusutaimuseideharoudoushajisingasigyoutoshuugyounojikanwokimeru"
+        },
+        {
+            "no": 1,
+            "text": "COIは、最高情報責任者",
+            "text2": "ciohasaikoujouhousekininsha"
+        },
+        {
+            "no": 1,
+            "text": "ROE(自己資本利益率)=(当期純利益÷自己資本)×100",
+            "text2": "roejikosihonnriekiritu"
+        },
+        {
+            "no": 1,
+            "text": "売上営業利益率=(営業利益÷売上高)×100",
+            "text2": "uriageeigyouriekiritu"
+        },
+        {
+            "no": 1,
+            "text": "ROA(総資産利益率)=(当期純利益÷総資産)×100",
+            "text2": "roasousisanriekiritu"
+        },
+        {
+            "no": 1,
+            "text": "売上原価=期首商品棚卸高+当期純仕入高⊸期末商品棚卸高",
+            "text2": "uriagegenka"
+        },
+        {
+            "no": 1,
+            "text": "自己資本比率は、数値が大きいほど財務の安全性が高い",
+            "text2": "jikosihonhirituhasuutigaookiihodozaimunoanzenseigatakai"
+        },
+        {
+            "no": 1,
+            "text": "流動比率は、数値が大きいほど支払い能力が高い",
+            "text2": "ryuudouhirituhasuutigaookiihodosiharainouryokugatakai"
+        },
+        {
+            "no": 1,
+            "text": "損益分岐点売上高=固定費÷(1-変動費率)=固定費÷{1-(変動費÷売上高)}",
+            "text2": "sonnekibunkitennuriagedaka"
+        },
+        {
+            "no": 1,
+            "text": "コーポレートガバナンスは、企業を統制し、監視する仕組み",
+            "text2": "ko-pore-togabanansuhakigyouwotouseisikansisurusikumi"
+        },
+        {
+            "no": 1,
+            "text": "コンプライアンスは、法令遵守",
+            "text2": "konpuraiansuhahoureijunshu"
+        },
+        {
+            "no": 1,
+            "text": "産業財務権には、特許権・実用新案権・意匠権・商標権がある",
+            "text2": "sanngyouzaimukennnihatokkyokenjituyousinnankennishoukenshouhyoukengaaru"
+        },
+        {
+            "no": 1,
+            "text": "プライバシーマーク制度は、個人情報に関係する",
+            "text2": "puraibasi-ma-kuseidohakojinjouhou"
+        },
+        {
+            "no": 1,
+            "text": "二重派遣は、労働者派遣法で禁止",
+            "text2": "nijuuhakennharoudoushahakennhoudekinsi"
+        },
+        {
+            "no": 1,
+            "text": "ワークライフバランスは、仕事と生活の調和",
+            "text2": "wa-kuraifubaransuhasigototoseikatunochouwa"
+        },
+        {
+            "no": 1,
+            "text": "ダイバーシティは、多様性",
+            "text2": "daiba-sithihatayousei"
+        },
+        {
+            "no": 1,
+            "text": "IEEEは、米国電気電子学会または米国電気電子技術者協会",
+            "text2": "ieeehabeikokudenkidensigakkaimatahabeikokudenkidensigijutushakyoukai"
+        },
+        {
+            "no": 1,
+            "text": "オプトインは、あらかじめ同意した人に対してのみ広告メール等を送付",
+            "text2": "oputoinhaarakajimedouisitahitonitaisitenomikoukokume-ruwosoufu"
+        },
+        {
+            "no": 2,
+            "text": "ポジショニングは、差別化するポイントを明確に",
+            "text2": "pojishoninguhasabetukasurupointowomeikakuni"
+        },
+        {
+            "no": 2,
+            "text": "CRSは、企業の社会的責任",
+            "text2": "crshakigyounoshakaitekisekinin"
+        },
+        {
+            "no": 2,
+            "text": "アライアンスは、企業同士の提携",
+            "text2": "araiansuhakigyoudousinoteikei"
+        },
+        {
+            "no": 2,
+            "text": "CSFは、重要成功要因",
+            "text2": "csfhajuuyouseikouyouin"
+        },
+        {
+            "no": 2,
+            "text": "PPMの評価軸は、市場成長率と市場シェア",
+            "text2": "ppmnohyoukajikuhasijouseichouritutosijoushea"
+        },
+        {
+            "no": 2,
+            "text": "SWOT分析は、強み・弱みと機会・脅威に分ける",
+            "text2": "swotbunsekihatuyomiyowamitokikaikyouiniwakeru"
+        },
+        {
+            "no": 2,
+            "text": "アンゾフの成長マトリクスは市場浸透、新製品開発、市場開拓、多様化に分類",
+            "text2": "anzofunoseichoumatorikusuhasijousintousinseihinkaihatusijoukaitakutayouseinibunrui"
+        },
+        {
+            "no": 2,
+            "text": "バリューチェーンマネジメントは、付加価値が事業活動のどの部分で生み出されているかを分析",
+            "text2": "baryu-che-nmanejimentohafukakatigajigyoukatudounodonobubundeumidasareteirukawobunseki"
+        },
+        {
+            "no": 2,
+            "text": "ロジスティックスは物流管理で、物流を管理・合理化",
+            "text2": "rojisuthikkusuhabuturyuukanridebuturyuuwokanrigourika"
+        },
+        {
+            "no": 2,
+            "text": "BSCでは、財務、顧客、内部ビジネスプロセス、学習と成長の４つの視点に基づいて戦略策定や業績評価",
+            "text2": "bscdehazaimukokyakunaibubijinesupurosesugakushuutoseichounoyottunositennnimotoduitesenryakusakuteiyagyousekihyouka"
+        },
+        {
+            "no": 2,
+            "text": "エクスローは、第三者預託",
+            "text2": "ekusuro-hadaisanshayotaku"
+        },
+        {
+            "no": 2,
+            "text": "クラウドファンディングでは、不特定多数の人から、寄付を集める",
+            "text2": "kuraudofandhinguhdehafutokuteitasuunohitokarakifuwoatumeru"
+        },
+        {
+            "no": 2,
+            "text": "マーケティングミックスは、４Pと４C",
+            "text2": "ma-kethingumikkusuhayonpi-toyonsi-"
+        },
+        {
+            "no": 2,
+            "text": "バリューエンジニアリングは、価値工学",
+            "text2": "baryu-enjiniaringuhakatikougaku"
+        },
+        {
+            "no": 2,
+            "text": "RFM分析では、購入履歴の最終購買日、購買頻度、累計購買金額に着目",
+            "text2": "rfmbunsekidehakounyuurirekinosaishuukoubaibikoubaihindoruikeikoubaikingakunichakumoku"
+        },
+        {
+            "no": 2,
+            "text": "オピニオンリーダは、集団の意思形成や世論に多大な影響を及ぼす人",
+            "text2": "opinionri-dahashuudannnoisikeiseiyayoronnitadainaeikyouwooyobosuhito"
+        },
+        {
+            "no": 2,
+            "text": "コモディティル化は、機能の差別化のない、低価格化競争",
+            "text2": "komodhithirukahakinounosabetukanonaiteikakakukakyousou"
+        },
+        {
+            "no": 2,
+            "text": "コンカレントエンジニアリングでは、前工程が完了しないうちに、着手可能なものから後工程の作業を始める",
+            "text2": "konkarentoenjiniaringudehamaekouteigakanryousinaiutinichakushukanounamonokarakoukouteinosagyouwohajimeru"
+        },
+        {
+            "no": 2,
+            "text": "SEOは、自社のWebサイトの表示順位をできるだけ上位に",
+            "text2": "seohajishanowebsaitonohyoujijunwodekirudakejouini"
+        },
+        {
+            "no": 2,
+            "text": "IoTは「モノのインターネット」",
+            "text2": "iothamononointa-netto"
+        },
+        {
+            "no": 2,
+            "text": "ディープラーニングは、大量のデータをニューラルネットワークで解析",
+            "text2": "dhi-pura-ninguhatairyounode-tawonyu-rarunettowa-kudekaiseki"
+        },
+        {
+            "no": 2,
+            "text": "PPAは、ソフトウェアのロボットによる定型業務の自動化",
+            "text2": "ppahasofutouleanorobottoniyoruteikeigyoumunojidouka"
+        },
+        {
+            "no": 3,
+            "text": "BPRは、業務プロセスの抜本的な再構築",
+            "text2": "bprhagyoumupurosesunobappontekinasaikoutiku"
+        },
+        {
+            "no": 3,
+            "text": "BPMは、業務プロセスの継続的な改善",
+            "text2": "bpmhagyoumupurosesunokeizokutekinakaizen"
+        },
+        {
+            "no": 3,
+            "text": "RFPは、提案依頼書",
+            "text2": "rfphateianniraisho"
+        },
+        {
+            "no": 3,
+            "text": "RFIは、情報提供依頼書",
+            "text2": "rfihajouhouteikyouiraisho"
+        },
+        {
+            "no": 3,
+            "text": "システムインテグレーションサービスは、情報システムの構築を請け負う",
+            "text2": "sisutemuintegure-shonsa-bisuhajouhousisutemunokoutikuwoukeou"
+        },
+        {
+            "no": 3,
+            "text": "情報リテラシは、情報を活用する基礎的能力",
+            "text2": "jouhouriterasihajouhouwokatuyousurukisotekinouryoku"
+        },
+        {
+            "no": 3,
+            "text": "ディジタルディバイドは、情報格差",
+            "text2": "dhijitarudhibaidohajouhoukakusa"
+        },
+        {
+            "no": 3,
+            "text": "グループウェアは、グループ内での情報共有に用いる",
+            "text2": "guru-puuleahaguru-punaidenojouhoukyouyuunimotiiru"
+        },
+        {
+            "no": 3,
+            "text": "SFAは営業支援システムで営業活動を効率化",
+            "text2": "sfahaeigyousiensisutemudeeigyoukatudouwokourituka"
+        },
+        {
+            "no": 3,
+            "text": "SCMは供給例差管理",
+            "text2": "scmhakyoukyuureisakanri"
+        },
+        {
+            "no": 3,
+            "text": "BYODは私的デバイスの活用",
+            "text2": "dyodhasitekidebaisunokatuyou"
+        },
+        {
+            "no": 3,
+            "text": "ASPはインターネットを通じて業務用アプリを貸し出す",
+            "text2": "asphainta-nettowotuujitegyoumuyouapuriwokasidasu"
+        },
+        {
+            "no": 3,
+            "text": "SaaSは利用したい機能だけをインターネット経由で利用",
+            "text2": "saashariyousitaikinoudakewointa-nettokeiyuderiyou"
+        },
+        {
+            "no": 3,
+            "text": "ERPは企業資源計画",
+            "text2": "erphakigyousigenkeikaku"
+        },
+        {
+            "no": 3,
+            "text": "DFDはデータの流れに焦点をあてた分析の方法",
+            "text2": "dfdhade-tanonagarenishoutenwoatetabunsekinohouhou"
+        },
+        {
+            "no": 3,
+            "text": "データマイニングは蓄積されたデータなどから規則性を見つけ出す",
+            "text2": "de-tamaininguhatikusekisaretade-tanadokarakisokuseiwomitukedasu"
+        },
+        {
+            "no": 3,
+            "text": "データサイエンティストは、リアルタイムで収集される、ビッグデータ等を解析する",
+            "text2": "de-tasaienthisutohariarutaimudeshuushuusarerubiggude-tanadowokaisekisuru"
+        },
+        {
+            "no": 3,
+            "text": "ハウジングサービスの利用者は、自分で用意したサーバーなどを預かってもらう",
+            "text2": "haujingusa-bisunoriyoushahajibundeyouisitasa-ba-nadowoazukattemorau"
+        },
+        {
+            "no": 3,
+            "text": "ホスティングサービスの利用者は、サーバーなどの機器そのものを借りる",
+            "text2": "hosuthingusa-bisunoriyoushahasa-ba-nadonokikisonomonowokariru"
+        },
+        {
+            "no": 4,
+            "text": "システム要件定義は、システムに要求される機能、性能を明確化",
+            "text2": "sisutemuyoukenteigihasisutemuniyoukyuusarerukinouseinouwomeikakuka"
+        },
+        {
+            "no": 4,
+            "text": "結合テストはインターフェイスを確認",
+            "text2": "ketugoutesutohainnta-feisuwokakunin"
+        },
+        {
+            "no": 4,
+            "text": "システムテストは、システム要件定義で定めた機能、能力の確認",
+            "text2": "sisutemutesutohasisutemuyoukenteigidesadametakinounouryokunokakunin"
+        },
+        {
+            "no": 4,
+            "text": "検収の時に発注者主導で行われるのが受け入れテスト",
+            "text2": "kenshuunotokinihacchuushashudoudeokonawarerunogaukeiretesuto"
+        },
+        {
+            "no": 4,
+            "text": "検収したら、実際の環境で運用テストを行う",
+            "text2": "kennshuusitarajissainokankyoudeunyoutesutowookonau"
+        },
+        {
+            "no": 4,
+            "text": "過去に開発した類似システムをベースに工数を見積もるのが類推法",
+            "text2": "kakonikaihatusitaruijisisutemuwobe-sunikousuuwomitumorunogaruisuihou"
+        },
+        {
+            "no": 4,
+            "text": "機能の複雑さによってつけた点数から規模を見積もる方法がファンクションポイント法",
+            "text2": "kinounofukuzatusaniyottetuketatensuukarakibowomitumoruhouhougafankushonpointohou"
+        },
+        {
+            "no": 4,
+            "text": "内部構造を理解したうえで行うのがホワイトボックステスト",
+            "text2": "naibukouzouworikaisitauedeokonaunogahowaitobokkusutesuto"
+        },
+        {
+            "no": 4,
+            "text": "ブラックボックステストでは中が見えなくてもデータを入力してみる",
+            "text2": "burakkubokkusutesutodehanakagamienakutemode-tawonyuuryokusitemiru"
+        },
+        {
+            "no": 4,
+            "text": "ウォーターフォールモデルは、海のように一方通行",
+            "text2": "ulo-ta-fo-rumoderuhauminoyouniippoutuukou"
+        },
+        {
+            "no": 4,
+            "text": "プロトタイピングは試作品",
+            "text2": "purototaipinguhasisakuhin"
+        },
+        {
+            "no": 4,
+            "text": "リバースエンジニアリングは既存の製品を分解、解析してその技術を獲得",
+            "text2": "riba-suenjiniaringuhakizonnnoseihinwobunkaikaisekisitesonogijutuwokakutoku"
+        },
+        {
+            "no": 4,
+            "text": "共通フレームはソフトウェア開発とその取引の適正化を目指したガイドライン",
+            "text2": "kyoutuufure-muhasofutouleakaihatutosonotorihikinotekiseikawomezasitagaidorain"
+        },
+        {
+            "no": 4,
+            "text": "オブジェクト指向設計はデータとその処理を、１つのまとまりとして管理",
+            "text2": "obujekutosikousekkeihade-tatosonoshoriwohitotunomatomaritositekannri"
+        },
+        {
+            "no": 4,
+            "text": "RADは短期でプログラムの作成を可能にする",
+            "text2": "radnhatannkidepuroguramunosakuseiwokanounisuru"
+        },
+        {
+            "no": 4,
+            "text": "ペアプログラミングはプログラムを書くドライバと、補佐するナビゲータの二人で行う",
+            "text2": "peapuroguraminguhapuroguramuwokakudoraibatohosasurunabige-tanofutarideokonau"
+        },
+        {
+            "no": 4,
+            "text": "ユースケースはシステムとユーザのやり取りを記述",
+            "text2": "yu-suke-suhasisutemutoyu-zanoyaritoriwokijutu"
+        },
+        {
+            "no": 4,
+            "text": "テストケースは想定上の入力に対する正しい出力を記述",
+            "text2": "tesutoke-suhasouteijounonyuuryokunitaisurutadasiishuturyokuwokijutu"
+        }
+    ],
+
+    "questions2":[
+        {
+            "no": 1,
+            "text": "単語のみの問題",
+            "text2": ""
+        }
+    ]
+}
