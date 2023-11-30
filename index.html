@@ -15,25 +15,37 @@
 	
 	<!-- Header(Start) -->
 	<header>
-        <div class="fixed-top">
-            <nav class="navbar navbar-expand-md navbar-light" style="background-color: #252525; opacity: 1;">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#" style="color: #FFFFFF">
+			<nav class="navbar navbar-dark" style="background-color: #252525; opacity: 1;">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#" style="color: #FFFFFF">
                         Shoma Adachi Portfolios
                     </a>
-                    <div class="dropdown">
-                        <a class="btn dropdown-toggle" style="background-color: #FFFFFF; opacity: 1;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                        メニュー
-                        </a>
-                    
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="#jikoshowkai">自己紹介</a></li>
-                            <li><a class="dropdown-item" href="#sakuhinshowkai">作品紹介</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+					<button id="btnmenu" class="navbar-toggler" style="border-color: #FFFFFF;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+						<div class="offcanvas-header">
+							<h5 class="offcnavas-title" id="offcanvasNavbarLabel">オフキャンバス</h5>
+							<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav justify-content-ent flex-grow-1 pe-3">
+								<li class="nav-item">
+									<a class="nav-link active" aria-currrent="page" href="#">ホーム</a>
+								</li>
+								<li class="nav-item">
+									<li><a class="dropdown-item" href="#jikoshowkai">自己紹介</a></li>
+                           			<li><a class="dropdown-item" href="#sakuhinshowkai">作品紹介</a></li>
+								</li>
+							</ul>
+							<from>
+								<input class="from-control me-2" type="search" placeholder="検索したい内容" aria-label="search">
+								<button class="btn btn-outline-success text-nowrap" type="submit">検索</button>
+							</from>					
+						</div>
+					</div>
+				</div>
+			</nav>
 	</header>
 	<!-- Header(End) -->
 
@@ -104,6 +116,126 @@
 				</div>
 
 			</div>
+
+		</div>
+
+<!--   超無駄機能 --------------------------------------------------------- -->
+		<div class="container">
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#textcount" aria-controls="offcanvasNavbar">文字カウンター</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="textcount" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">文字数カウント</h5>
+				</div>
+				<div class="offcanvas-body">
+					<textarea id="countarea" style="width: 100%; height: 30%;" placeholder="数えたい文章を入力"></textarea>	
+					<p id="textcountNum"></p>
+				</div>
+			</div>
+
+			<!-- 電卓---------------------------------------------------------------->
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#dentaku" aria-controls="offcanvasNavbar">電卓</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="dentaku" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">電卓</h5>				
+				</div>
+				<div class="offcanvas-body">
+					<div id="keisan">
+						<h2 id="kekka"></h2>
+					</div>
+					  
+					<div id="button">
+						<div class="dan_1"><button id="ac">AC</button><button id="puramai">+/-</button><button id="percent">%</button><button id="waru">/</button></div>
+						<div class="dan_2"><button id="7">7</button><button id="8">8</button><button id="9">9</button><button id="kakeru">*</button></div>
+						<div class="dan_3"><button id="4">4</button><button id="5">5</button><button id="6">6</button><button id="mainasu">-</button></div>
+						<div class="dan_4"><button id="1">1</button><button id="2">2</button><button id="3">3</button><button id="purasu">+</button></div>
+						<div class="dna_5"><button id="zero">0</button><button id="ten">.</button><button id="ikoru">=</button></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 時計---------------------------------------------------------------- -->
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#clock" aria-controls="offcanvasNavbar">時計</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="clock" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">時計</h5>				
+				</div>
+
+				<div class="offcanvas-body">
+					<div id="clock"></div>
+				</div>
+			</div>
+			
+			<!-- タイマー--------------------------------------------------------------- -->
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#timer" aria-controls="offcanvasNavbar">タイマー</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="timer" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">タイマー</h5>				
+				</div>
+
+				<div class="offcanvas-body">
+					<div id="timerDisplay">00:00</div>
+					<a class="btn btn-primary" id="startTimer">スタート</a>
+					<a class="btn btn-danger" id="stopTimer">ストップ</a>
+					<a class="btn btn-success" id="resetTimer">リセット</a>
+				</div>
+			</div>
+
+			<!-- カウンター-------------------------------------------------------------- -->
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#counter" aria-controls="offcanvasNavbar">カウンター</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="counter" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">カウンター</h5>				
+				</div>
+
+				<div class="offcanvas-body">
+					<div id="counterValue">0</div>
+					<a class="btn btn-primary" id="increaseCounter">増加</a>
+					<a class="btn btn-danger" id="resetCounter">リセット</a>
+				</div>
+			</div>
+
+			<!-- cpsカウンター------------------------------------------------------------ -->
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#cpscounter" aria-controls="offcanvasNavbar">CPSカウンター</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="cpscounter" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">CPSカウンター</h5>				
+				</div>
+
+				<div class="offcanvas-body">
+					<a class="btn btn-primary" type="button" id="startCpsCounter" aria-controls="offcanvasNavbar">計測スタート</a>
+					<a class="btn btn-danger" type="button" id="resetCpsCounter">停止</a>
+					<a class="btn btn-success" type="button" id="increaseCpsCounter">連打</a>
+					<div id="cpscounterValue">秒間 0 クリック</div>
+				</div>
+			</div>
+
+			<!-- メモ------------------------------------------------------------------- -->
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#memo" aria-controls="offcanvasNavbar">メモ</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="memo" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">メモ</h5>
+				</div>
+				<div class="offcanvas-body">
+					<textarea id="Content" style="width: 100%; height: 30%;" placeholder="メモ"></textarea>	
+				</div>
+			</div>
+
+
+			<!-- キー番号--------------------------------------------------------------- -->
+			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#keycode" aria-controls="offcanvasNavbar">キーコード番号</a>
+			<div class="offcanvas offcanvas-start" tabindex="-1" id="keycode" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">キーコード番号</h5>
+				</div>
+				<div class="offcanvas-body">
+					<input id="text1" type="text" value="" maxlength="1" autocomplete="off">
+					<p>event.key : <span id="sp1"></span></p>
+					<p>event.which : <span id="sp2"></span></p>
+					<p>event.keyCode : <span id="sp3"></span></p>
+					<p>event.code : <span id="sp4"></span></p>	
+				</div>
+			</div>
+			
 
 		</div>
 	</main>
