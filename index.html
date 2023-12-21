@@ -12,6 +12,11 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
+	<!-- ロード画面 -->
+	<div id="splash">
+		<div id="splash_text"></div>
+	</div>
 	
 	<!-- Header(Start) -->
 	<header>
@@ -66,7 +71,7 @@
 			<div class="row">
 				<div class="col-5 d-flex justify-content-center">
 					<div id="kao_Icon">
-						<img src="./images/ASuRa.jpg" id="ASuRa">
+						<img src="./images/ASuRa.png" id="ASuRa">
 					</div>
 				</div>
 				
@@ -120,20 +125,24 @@
 		</div>
 
 <!--   超無駄機能 --------------------------------------------------------- -->
-		<div class="container">
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#textcount" aria-controls="offcanvasNavbar">文字カウンター</a>
+		<div class="container">			
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="textcount" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
-					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">文字数カウント</h5>
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">文字数カウンター</h5>
 				</div>
 				<div class="offcanvas-body">
 					<textarea id="countarea" style="width: 100%; height: 30%;" placeholder="数えたい文章を入力"></textarea>	
 					<p id="textcountNum"></p>
 				</div>
+				<!-- タブ -->
+				<div id="my_tab_1">
+					<button type="button" id="btn_tab" class="btn"  style="background-color: #FF4F4B;"
+					data-bs-toggle="offcanvas" data-bs-target="#textcount">文字数カウンター</button>
+				</div>
 			</div>
+			
 
-			<!-- 電卓---------------------------------------------------------------->
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#dentaku" aria-controls="offcanvasNavbar">電卓</a>
+			<!-- 電卓---------------------------------------------------------------->			
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="dentaku" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">電卓</h5>				
@@ -151,22 +160,32 @@
 						<div class="dna_5"><button id="zero">0</button><button id="ten">.</button><button id="ikoru">=</button></div>
 					</div>
 				</div>
+				<!-- タブ -->
+				<div id="my_tab_2">
+					<button type="button" id="btn_tab" class="btn" style="background-color: #FFBC49;" 
+					data-bs-toggle="offcanvas" data-bs-target="#dentaku">電卓</button>
+				</div>
 			</div>
 
 			<!-- 時計---------------------------------------------------------------- -->
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#clock" aria-controls="offcanvasNavbar">時計</a>
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="clock" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">時計</h5>				
 				</div>
 
 				<div class="offcanvas-body">
-					<div id="clock"></div>
+					<div id="clock_content"></div>
+				</div>
+
+				<!-- タブ -->
+				<div id="my_tab_3">
+					<button type="button" id="btn_tab" class="btn" style="background-color: #FFFC4A;" 
+					data-bs-toggle="offcanvas" data-bs-target="#clock">時計</button>
 				</div>
 			</div>
 			
+			
 			<!-- タイマー--------------------------------------------------------------- -->
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#timer" aria-controls="offcanvasNavbar">タイマー</a>
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="timer" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">タイマー</h5>				
@@ -178,10 +197,14 @@
 					<a class="btn btn-danger" id="stopTimer">ストップ</a>
 					<a class="btn btn-success" id="resetTimer">リセット</a>
 				</div>
+				<!-- タブ -->
+				<div id="my_tab_4">
+					<button type="button" id="btn_tab" class="btn" style="background-color: #9EFF56;" 
+					data-bs-toggle="offcanvas" data-bs-target="#timer">タイマー</button> 
+				</div>
 			</div>
 
 			<!-- カウンター-------------------------------------------------------------- -->
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#counter" aria-controls="offcanvasNavbar">カウンター</a>
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="counter" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">カウンター</h5>				
@@ -192,10 +215,15 @@
 					<a class="btn btn-primary" id="increaseCounter">増加</a>
 					<a class="btn btn-danger" id="resetCounter">リセット</a>
 				</div>
+
+				<!-- タブ -->
+				<div id="my_tab_5">
+					<button type="button" id="btn_tab" class="btn" style="background-color: #54FF46;" 
+					data-bs-toggle="offcanvas" data-bs-target="#counter">カウンター</button>
+				</div>
 			</div>
 
 			<!-- cpsカウンター------------------------------------------------------------ -->
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#cpscounter" aria-controls="offcanvasNavbar">CPSカウンター</a>
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="cpscounter" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">CPSカウンター</h5>				
@@ -207,10 +235,14 @@
 					<a class="btn btn-success" type="button" id="increaseCpsCounter">連打</a>
 					<div id="cpscounterValue">秒間 0 クリック</div>
 				</div>
+				<!-- タブ -->
+				<div id="my_tab_6">
+					<button type="button" id="btn_tab" class="btn" style="background-color: #56CBFF;"  
+					data-bs-toggle="offcanvas" data-bs-target="#cpscounter">cpsカウンター</button>
+				</div>
 			</div>
 
 			<!-- メモ------------------------------------------------------------------- -->
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#memo" aria-controls="offcanvasNavbar">メモ</a>
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="memo" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">メモ</h5>
@@ -218,14 +250,18 @@
 				<div class="offcanvas-body">
 					<textarea id="Content" style="width: 100%; height: 30%;" placeholder="メモ"></textarea>	
 				</div>
+				<!-- タブ -->
+				<div id="my_tab_7">
+					<button type="button" id="btn_tab" class="btn" style="background-color: #5769FF;" 
+					data-bs-toggle="offcanvas" data-bs-target="#memo">メモ</button>
+				</div>
 			</div>
 
 
 			<!-- キー番号--------------------------------------------------------------- -->
-			<a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#keycode" aria-controls="offcanvasNavbar">キーコード番号</a>
 			<div class="offcanvas offcanvas-start" tabindex="-1" id="keycode" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
-					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">キーコード番号</h5>
+					<h5 class="offcnavas-title" id="offcanvasNavbarLabel">キーコードチェッカー</h5>
 				</div>
 				<div class="offcanvas-body">
 					<input id="text1" type="text" value="" maxlength="1" autocomplete="off">
@@ -233,6 +269,11 @@
 					<p>event.which : <span id="sp2"></span></p>
 					<p>event.keyCode : <span id="sp3"></span></p>
 					<p>event.code : <span id="sp4"></span></p>	
+				</div>
+				<!-- タブ -->
+				<div id="my_tab_8">
+					<button type="button" id="btn_tab" class="btn" style="background-color: #AA42FF;"
+					data-bs-toggle="offcanvas" data-bs-target="#keycode">キーコード</button>
 				</div>
 			</div>
 			
@@ -259,6 +300,7 @@
 	<!-- JavaScript -->
 	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
 	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
 	<script src="./main.js"></script>
 </body>
 </html>

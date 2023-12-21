@@ -1,5 +1,70 @@
 console.log("main.js!!");
 
+//ロード画面
+var bar = new ProgressBar.Line(splash_text, {
+	easing: 'easeInOut',
+	strokeWidth: 0.2,
+	duration: 1000,
+	color: '#555',
+	trailWidth: 0,
+	trailColor: '#bbb',
+	text: {
+		style: {
+			position:'absolute',
+			left:'50%',
+			top:'50%',
+			padding:'0',
+			margin:'0',
+			transform:'translate(-50%,-50%)',
+			'font-size':'2.0rem',
+			color:'#eee'
+		},
+		autoStyleContainer: false
+	},
+	step: function(state, bar) {
+		bar.setText(Math.round(bar.value() * 100) + ' %');
+		
+	}
+});
+
+bar.animate(1.0, function () {
+	$("#splash").delay(500).fadeOut(800);
+
+	setTimeout(()=>{	
+		// タブをvisibleに
+		$("#my_tab_1").css("visibility", "visible");
+		$("#my_tab_2").css("visibility", "visible");
+		$("#my_tab_3").css("visibility", "visible");
+		$("#my_tab_4").css("visibility", "visible");
+		$("#my_tab_5").css("visibility", "visible");
+		$("#my_tab_6").css("visibility", "visible");
+		$("#my_tab_7").css("visibility", "visible");
+		$("#my_tab_8").css("visibility", "visible");
+	}, 800)
+});
+
+
+
+setOffcanvas("textcount");
+setOffcanvas("dentaku");
+setOffcanvas("clock");
+setOffcanvas("timer");
+setOffcanvas("counter");
+setOffcanvas("cpscounter");
+setOffcanvas("memo");
+setOffcanvas("keycode");
+
+function setOffcanvas(id){
+	const elem = document.getElementById(id);
+	elem.addEventListener("show.bs.offcanvas", (e)=>{
+		console.log("show:", e.target);
+		$(e.target).css("z-index", 10001);
+	});
+	elem.addEventListener("hidden.bs.offcanvas", (e)=>{
+		console.log("hidden:", e.target);
+		$(e.target).css("z-index", 10000);
+	});
+}
 
 
 //無駄機能-------------------------------------------------
@@ -181,7 +246,7 @@ $("#countarea").on('input', function(){
 
 		var timeString = hours + ":" + minutes + ":" + seconds;
 
-		$('#clock').text(timeString);
+		$('#clock_content').text(timeString);
 	}
 
 	// 初回表示
